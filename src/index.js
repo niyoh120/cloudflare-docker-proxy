@@ -9,8 +9,8 @@ const routes = {
   // production
   "docker.niyoh.top": dockerHub,
   "ghcr.niyoh.top": "https://ghcr.io",
-  // "k8s-gcr.libcuda.so": "https://k8s.gcr.io",
-  // "k8s.libcuda.so": "https://registry.k8s.io",
+  "k8s.niyoh.top": "https://registry.k8s.io",
+  "k8s-gcr.niyoh.top": "https://k8s.gcr.io",
 };
 
 function routeByHosts(host) {
